@@ -11,7 +11,7 @@ const Header = () => {
           <h1 className="logo">ZM</h1>
         </div>
         <div>
-          <li className="navbar__links">
+          <ul className="navbar__links">
             <a href="/">
               <li>Projects</li>
             </a>
@@ -24,7 +24,7 @@ const Header = () => {
             <a href={Pdf} target="_blank" className="resume__button">
               Resume
             </a>
-          </li>
+          </ul>
         </div>
       </nav>
     </div>
