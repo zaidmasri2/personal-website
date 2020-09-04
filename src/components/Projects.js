@@ -1,52 +1,23 @@
-import React, { Component } from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import ProjectCard from "./ProjectCard";
-require("dotenv").config();
 
-function getProjects() {
-  var myHeaders = new Headers();
-  myHeaders.append(
-    "Authorization",
-    `Bearer ${process.env.REACT_APP_GITHUB_TOKEN}`
-  );
-  myHeaders.append("Cookie", "_octo=GH1.1.43603389.1599104196; logged_in=no");
-
-  var requestOptions = {
-    method: "GET",
-    headers: myHeaders,
-    redirect: "follow",
-  };
-
-  fetch("https://api.github.com/user/repos", requestOptions)
-    .then((response) => response.text())
-    .then((result) => console.log(result))
-    .catch((error) => console.log("error", error));
-}
-getProjects();
-const projects = [
-  {
-    name: "Personal Website",
-    id: 1,
-    desc: "This is my personal website",
-    url: "/",
-  },
-  {
-    name: "Hawyar App",
-    id: 2,
-    desc: "This is my personal website",
-    url: "/",
-  },
-  {
-    name: "Steve App",
-    id: 3,
-    desc: "This is my personal website",
-    url: "/",
-  },
-];
 const Projects = () => {
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      const result = await axios(
+        "https://api.github.com/users/zaidmasri2/repos"
+      );
+      setData(result.data);
+    };
+    fetchData();
+  }, []);
+
   return (
     <div>
-      {projects.map((el) => (
-        <ProjectCard data={el} key={el.id} />
+      {data.map((item) => (
+        <ProjectCard data={item} key={item.id} />
       ))}
     </div>
   );
