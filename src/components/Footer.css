@@ -1,0 +1,6 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  border-top: gray solid 1px;
+  padding: 12px 0px;
+}

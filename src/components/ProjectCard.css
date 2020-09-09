@@ -1,0 +1,27 @@
+.card {
+  margin-bottom: 3rem;
+  width: 200px;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border: rgba(0, 0, 0, 0.08) 1px solid;
+  transition: box-shadow 0.3s ease-in-out;
+}
+a {
+  text-decoration: none;
+}
+
+.card h3 {
+  color: #8d93ab;
+  font-size: 0.9rem;
+}
+.card h1 {
+  color: #00334e;
+  font-size: 1.5rem;
+}
+.card p {
+  font-size: 0.75rem;
+  color: #00334e;
+}
+.card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.09);
+}
