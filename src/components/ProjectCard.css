@@ -5,6 +5,7 @@
   background-color: transparent;
   border: rgba(0, 0, 0, 0.08) 1px solid;
   transition: box-shadow 0.3s ease-in-out;
+  min-height: 140px;
 }
 a {
   text-decoration: none;
