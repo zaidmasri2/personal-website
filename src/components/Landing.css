@@ -1,0 +1,28 @@
+* {
+  background-color: inherit;
+}
+.landing__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 3rem;
+}
+
+.rect {
+  background-color: black;
+  padding: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  border-radius: 6px;
+  max-width: 424px;
+}
+.image {
+  position: relative;
+  max-width: 100%;
+  margin-bottom: -100px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05), 0 5px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+.right__wrapper {
+  margin: 0rem 0rem 0rem 5rem;
+}

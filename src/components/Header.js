@@ -5,25 +5,31 @@ import Pdf from "../files/resume.pdf";
 
 const Header = () => {
   return (
-    <div className="container">
+    <div className="container dark__background">
       <nav className="navbar">
         <div>
-          <h1 className="logo">ZM</h1>
+          <a href="localhost:3000/" className="logo">
+            ZAIDMASRI
+          </a>
         </div>
         <div>
           <ul className="navbar__links">
-            <a href="/">
-              <li>Projects</li>
-            </a>
-            <a href="/about">
-              <li>About</li>
-            </a>
-            <a href="/contact">
-              <li>Contact</li>
-            </a>
-            <a href={Pdf} target="_blank" className="resume__button">
-              Resume
-            </a>
+            <li>
+              <a href="/about">About</a>
+            </li>
+            <li>
+              <a href="/projects">Projects</a>
+            </li>
+            <li>
+              <a href="/contact">Contact</a>
+            </li>
+            <li>
+              <button className="resume__button">
+                <a className="pdf__handle" href={Pdf} target="_blank">
+                  Resume
+                </a>
+              </button>
+            </li>
           </ul>
         </div>
       </nav>

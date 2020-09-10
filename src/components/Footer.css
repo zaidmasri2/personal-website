@@ -1,9 +1,9 @@
 .footer {
   display: flex;
   flex-direction: row;
-  border-top: gray solid 1px;
+  border-top: #fff solid 1px;
   padding: 12px 0px;
-  color: #00334e;
+  color: #fff;
   justify-content: right;
   font-weight: 500;
 }

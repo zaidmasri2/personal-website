@@ -1,0 +1,32 @@
+* {
+  background-color: white;
+}
+.about__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+}
+.left__about {
+  width: 95%;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.09);
+  margin-right: auto;
+}
+
+.right__about {
+  padding-left: 2rem;
+}
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+li {
+  padding: 2px;
+  list-style: none;
+}

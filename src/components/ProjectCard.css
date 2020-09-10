@@ -7,21 +7,18 @@
   transition: box-shadow 0.3s ease-in-out;
   min-height: 140px;
 }
-a {
-  text-decoration: none;
-}
 
 .card h3 {
   color: #8d93ab;
   font-size: 0.9rem;
 }
 .card h1 {
-  color: #00334e;
+  color: #fff;
   font-size: 1.5rem;
 }
 .card p {
   font-size: 0.75rem;
-  color: #00334e;
+  color: #fff;
 }
 .card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.09);
