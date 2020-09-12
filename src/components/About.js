@@ -5,12 +5,13 @@ import photo from "../files/zaid.jpeg";
 
 const About = () => {
   return (
-    <div className="container">
+    <div className="container dark__background light__polygon">
       <div style={{ marginBottom: "2rem" }}>
-        <h2 className="heading__md">About</h2>
+        <h2 style={{ color: "#fff" }} className="heading__md">
+          About
+        </h2>
       </div>
       <div className="about__wrapper">
-        <div className="left__about"></div>
         <div className="right__about">
           <p>
             Hello! I'm Zaid, a software engineering studnet at

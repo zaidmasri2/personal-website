@@ -2,21 +2,27 @@
   padding: 0 3rem;
   margin: 0 auto;
   padding-bottom: 1rem;
-  color: #fff;
 }
-.dark__polygon {
-  background-color: #191a1d;
-  padding-bottom: 100px;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
-}
+
 .heading__md {
   font-size: 1.6rem;
-  margin: 1rem 0rem;
+  text-align: center;
 }
 a {
   text-decoration: none;
 }
 .dark__background {
   background-color: #191a1d;
+  margin: 0px 0px;
+}
+.dark__polygon {
+  background-color: #191a1d;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+}
+.light__polygon {
+  padding-top: 3rem;
+  clip-path: polygon(0 calc(0% + 100px), 100% 0, 100% 100%, 0 100%);
+}
+.light__background {
   margin: 0px 0px;
 }

@@ -4,8 +4,8 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="container">
-      <p className="footer">Made with {Array("\u2665")} and React</p>
+    <div className="container dark__background">
+      <span className="footer">Made with {Array("\u2665")} and React</span>
     </div>
   );
 };

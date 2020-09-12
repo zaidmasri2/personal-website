@@ -8,16 +8,17 @@ const Landing = () => {
     <div className="container dark__polygon dark__background">
       <div className="landing__wrapper">
         <div className="left__wrapper">
-          <div className="rect">
+          <figure className="rect">
             <img className="image" src={photo}></img>
-          </div>
+          </figure>
         </div>
-        <div className="right__wrapper">
+        <div className="text__wrapper">
           <h1>Hey! I'm Zaid.</h1>
-          <h2>
+          <p>
             A software engineering student at
-            <a href="https://www.manchester.edu/"> Manchester University</a>
-          </h2>
+            <a href="https://www.manchester.edu/"> Manchester University.</a> I
+            am currently looking for new oppertunites! Feel free to reach out.
+          </p>
         </div>
       </div>
     </div>

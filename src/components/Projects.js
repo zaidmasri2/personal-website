@@ -17,7 +17,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="container">
+    <div className="containerlight__background">
       <div style={{ marginBottom: "2rem" }}>
         <h2 className="heading__md">Projects</h2>
       </div>
