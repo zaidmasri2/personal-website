@@ -1,17 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100;300;400;500;600;700&display=swap");
+p {
+  font-family: "IBM Plex Serif", serif;
+  font-size: 1.25rem;
+  max-width: 75%;
+  line-height: 3rem;
+  font-weight: 400;
+}
 .about__wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-
-.right__about {
-  padding-left: 2rem;
-  color: #191a1d;
-}
-ul {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-li {
-  padding: 2px;
-  list-style: none;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
 }

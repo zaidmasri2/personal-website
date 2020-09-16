@@ -23,6 +23,7 @@ img {
   width: 100%;
 }
 .text__wrapper {
+  font-family: "Inter", sans-serif;
   width: 45%;
   text-align: left;
   padding-left: 8rem;

@@ -17,11 +17,12 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="container dark__background">
+    <div className="container ">
       <div classname="markdown__wrapper">
-        <h2 style={{ color: "#fff" }} className="heading__md">
-          Projects
-        </h2>
+        <h2 className="heading__md">Projects</h2>
+        <h4 className="subtitle__md">
+          All of my projects on GitHub. Click on one and check it out!
+        </h4>
       </div>
 
       <div className="projects__wrapper">
