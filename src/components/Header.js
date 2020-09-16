@@ -5,7 +5,7 @@ import Pdf from "../files/resume.pdf";
 
 const Header = () => {
   return (
-    <div className="container dark__background">
+    <div className="container">
       <nav className="navbar">
         <div>
           <a href="localhost:3000/" className="logo">
