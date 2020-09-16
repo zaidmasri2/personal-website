@@ -1,26 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;800&display=swap");
+
 .card {
+  font-family: "Inter", sans-serif;
   margin-bottom: 3rem;
   width: 200px;
   padding: 1rem 2rem;
-  background-color: #242937;
-  border: rgba(0, 0, 0, 0.08) 1px;
+  background-color: transparent;
+  border: rgba(0, 0, 0, 0.08) 1px solid;
   border-radius: 6px;
   transition: box-shadow 0.3s ease-in-out;
-  min-height: 250px;
+  min-height: 200px;
 }
 
 .card h3 {
   font-size: 0.9rem;
+  color: #4b6cc1;
 }
 
 .card h1 {
   font-size: 1.5rem;
-  color: #fff;
+  color: black;
 }
 .card p {
   font-size: 0.75rem;
-  color: #fff;
+  color: gray;
+  line-height: normal;
 }
+
 .card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 }

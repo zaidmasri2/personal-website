@@ -8,7 +8,9 @@ const Contact = () => {
     <div className="container">
       <div className="contact__center">
         <h2 className="heading__md">Contact</h2>
-        <p className="subtitle">I am currently open to new opportunities.</p>
+        <p className="subtitle__md">
+          I am currently open to new opportunities.
+        </p>
         <Button />
       </div>
     </div>

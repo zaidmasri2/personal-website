@@ -5,7 +5,7 @@ const Button = (props) => {
   return (
     <div>
       <button className={props.primary ? "primary" : "secondary"}>
-        Get in Touch
+        <a href="mailto:zaidmasri2@gmail.com">Get in Touch</a>
       </button>
     </div>
   );

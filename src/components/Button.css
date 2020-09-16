@@ -9,8 +9,18 @@
   background-color: transparent;
 }
 .secondary:hover {
-  background: #dad3d1;
+  background: #4b6cc1;
   transition: all 0.25s ease-in;
+}
+.primary a {
+  color: #fff;
+}
+.secondary:hover a {
+  color: #fff;
+  transition: all 0.25s ease-in;
+}
+.secondary a {
+  color: black;
 }
 .primary {
   color: #fff;
