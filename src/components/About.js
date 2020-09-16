@@ -1,7 +1,6 @@
 import React from "react";
 import "./util.css";
 import "./About.css";
-import ChipVideo from "../files/chip.MP4";
 
 const About = () => {
   return (
