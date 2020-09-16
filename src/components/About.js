@@ -17,7 +17,16 @@ const About = () => {
           Engineering in North Manchester, IN. I enjoy solving problems, whether
           that be fixing a car or finding a bug in my code. My goal is to be the
           ultimate proffesional by building detail oriented, abstract, and
-          performant experiences.
+          performant experiences. <br />
+          Here are some technologies that I currently work with:
+          <ul>
+            <li> JavaScript (ES6+)</li>
+            <li> Java 11 LTS</li>
+            <li> React </li>
+            <li> Node.js</li>
+            <li> Express</li>
+            <li> GraphQL</li>
+          </ul>
         </p>
       </div>
     </div>

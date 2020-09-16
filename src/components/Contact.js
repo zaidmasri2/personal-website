@@ -9,7 +9,8 @@ const Contact = () => {
       <div className="contact__center">
         <h2 className="heading__md">Contact</h2>
         <p className="subtitle__md">
-          I am currently open to new opportunities.
+          Although I am looking for new opportunities specifically, my inbox is
+          open to anyone. Feel free to reach out
         </p>
         <Button />
       </div>

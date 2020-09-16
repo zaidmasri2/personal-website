@@ -12,3 +12,10 @@ p {
   align-items: center;
   justify-items: center;
 }
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: left;
+  list-style-type: none;
+}
