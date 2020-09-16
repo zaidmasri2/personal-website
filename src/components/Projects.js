@@ -17,9 +17,11 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="containerlight__background">
-      <div style={{ marginBottom: "2rem" }}>
-        <h2 className="heading__md">Projects</h2>
+    <div className="container dark__background">
+      <div classname="markdown__wrapper">
+        <h2 style={{ color: "#fff" }} className="heading__md">
+          Projects
+        </h2>
       </div>
 
       <div className="projects__wrapper">

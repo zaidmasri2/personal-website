@@ -1,16 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,300;1,600&display=swap");
-* {
-  background-color: inherit;
-  font-family: "Rubik", "Arial", sans-serif;
-  font-weight: 300;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;800&display=swap");
 
 .landing__wrapper {
   display: flex;
   flex-direction: row;
-  padding-bottom: 3rem;
+  justify-content: space-between;
+  padding-bottom: 2rem;
 }
-
 .rect {
   background-color: black;
   padding: 50px;
@@ -22,19 +17,37 @@
 img {
   position: relative;
   max-width: 100%;
-  overflow: hidden;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05), 0 5px 30px rgba(0, 0, 0, 0.2);
   border-radius: 3px;
   display: block;
   width: 100%;
-  padding-left: 147px;
-  text-align: left;
 }
 .text__wrapper {
-  color: #fff;
-  letter-spacing: 0.1rem;
-  font-weight: 800;
+  width: 45%;
+  text-align: left;
+  padding-left: 8rem;
+  display: flex;
+  flex-direction: column;
 }
-a {
+.jumbo__header {
+  font-size: 3rem;
+  letter-spacing: -2.4px;
+  font-weight: 700;
+}
+.subtext__header {
+  line-height: 2rem;
+  font-size: 1.8rem;
+  letter-spacing: -0.5px;
+  font-weight: 500;
+  width: 80%;
+}
+.subtext__header a {
   color: #4b6cc1;
+}
+.contact__wrapper {
+  padding-top: 2rem;
+}
+.contact {
+  font-weight: 400;
+  font-size: 1.15rem;
 }

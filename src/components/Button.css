@@ -1,0 +1,27 @@
+.secondary {
+  font-size: inherit;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: all 0.25s ease-in;
+  background-color: transparent;
+}
+.secondary:hover {
+  background: #dad3d1;
+  transition: all 0.25s ease-in;
+}
+.primary {
+  color: #fff;
+  background-color: #4b6cc1;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: all 0.25s ease-in;
+  font-size: 1rem;
+}
+.primary:hover {
+  background-color: #3d589d;
+}

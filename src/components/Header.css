@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,300;1,600&display=swap");
-* {
-  background-color: inherit;
-}
+
 a {
   font-family: "Rubik", "Arial", sans-serif;
   font-weight: 500;
@@ -25,12 +23,13 @@ a {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.063em;
-  color: #fff;
+  color: black;
 }
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 2rem 0rem;
 }
 .navbar__links {
   display: flex;
@@ -39,14 +38,14 @@ a {
   align-items: center;
   list-style-type: none;
   width: 420px;
-  color: gray;
+  color: #b4abab;
 }
 .navbar__links a {
   color: inherit;
-  transition: all 0.25s ease-in;
 }
 .navbar__links a:hover {
-  color: #fff;
+  color: #535151;
+  transition: all 0.25s ease-in;
 }
 .pdf__handle {
   background-color: inherit;
@@ -62,5 +61,8 @@ a {
   transition: all 0.25s ease-in;
 }
 .resume__button:hover {
-  background-color: #3d5799;
+  background-color: #3d589d;
+}
+.resume__button a:hover {
+  color: #fff;
 }
