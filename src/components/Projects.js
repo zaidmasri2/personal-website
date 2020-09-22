@@ -17,7 +17,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="container ">
+    <div className="container">
       <div classname="markdown__wrapper">
         <h2 className="heading__md">Projects</h2>
         <h4 className="subtitle__md">

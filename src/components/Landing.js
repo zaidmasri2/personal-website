@@ -28,9 +28,11 @@ const Landing = () => {
             </div>
           </p>
         </div>
-        <div className="rect">
-          <div>
-            <img className="image" src={photo}></img>
+        <div className="image__wrapper">
+          <div className="rect">
+            <div>
+              <img src={photo}></img>
+            </div>
           </div>
         </div>
       </div>

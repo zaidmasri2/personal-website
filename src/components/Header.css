@@ -42,6 +42,7 @@ a {
 }
 .navbar__links a {
   color: inherit;
+  cursor: pointer;
 }
 .navbar__links a:hover {
   color: #535151;

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Header.css";
 import "./util.css";
 import Pdf from "../files/resume.pdf";
@@ -14,15 +14,17 @@ const Header = () => {
         </div>
         <div>
           <ul className="navbar__links">
+            <div>
+              <a>About</a>
+            </div>
             <li>
-              <a href="/about">About</a>
+              <div>
+                <a>Projects</a>
+              </div>
             </li>
-            <li>
-              <a href="/projects">Projects</a>
-            </li>
-            <li>
-              <a href="/contact">Contact</a>
-            </li>
+            <div>
+              <a>Contact</a>
+            </div>
             <li>
               <button className="resume__button">
                 <a className="pdf__handle" href={Pdf} target="_blank">
