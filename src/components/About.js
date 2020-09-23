@@ -1,17 +1,17 @@
-import React from "react";
-import "./util.css";
-import "./About.css";
-
-const About = () => {
+import React, { forwardRef } from 'react';
+import './util.css';
+import './About.css';
+// this ref here is coming from header or a mutual parent component
+const About = forwardRef((props, ref) => {
   return (
-    <div className="container ">
-      <div>
-        <h2 className="heading__md">About</h2>
-        <h5 className="subtitle__md">
+    <div>
+      <div ref={ref}>
+        <h2 className='heading__md'>About</h2>
+        <h5 className='subtitle__md'>
           Find out who I am, where I'm from and what I'm all about
         </h5>
       </div>
-      <div className="about__wrapper">
+      <div className='about__wrapper'>
         <p>
           I am currently wrapping up my Bachelors of Science in Software
           Engineering in North Manchester, IN. I enjoy solving problems, whether
@@ -31,5 +31,5 @@ const About = () => {
       </div>
     </div>
   );
-};
+});
 export default About;
